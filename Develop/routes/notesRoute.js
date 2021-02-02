@@ -30,7 +30,7 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../db/db.json"));
   })
 
-  app.get("/api/notes", function(req, res) {
+  app.get("/api/notes/:id", function(req, res) {
     let savedNote = JSON.parse(fs.readFileSync("../db/db.json", "utf8"));
     res.json(savedNote[Number(req.params.id)]);
   })
@@ -47,7 +47,7 @@ module.exports = function(app) {
     });
   });
 
-  app.delete("/api/notes", (req, res) => {
+  app.delete("/api/notes/:id", (req, res) => {
     fs.readFile(db, "utf-8", (err, data) => {
       if (err) throw err;
       let id = req.params.id;
