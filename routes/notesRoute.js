@@ -49,9 +49,10 @@ module.exports = function(app) {
 
 app.delete("/api/notes/:id", function(req, res) {
     let saveNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    let note = req.body;
     let noteID = req.params.id;
     let newID = 0;
-    console.log(`You deleted note, ${note.title}.`, note);
+    console.log(`You deleted note #${noteID}.`);
     saveNotes = saveNotes.filter(currentNote => {
         return currentNote.id != noteID;
     })
