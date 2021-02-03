@@ -1,25 +1,17 @@
 {
-  "name": "note-taker",
+  "name": "develop",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "fs": "0.0.1-security"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gabel35/Note_Capture.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gabel35/Note_Capture/issues"
-  },
-  "homepage": "https://github.com/gabel35/Note_Capture#readme",
-  "description": ""
+  "license": "ISC"
 }
