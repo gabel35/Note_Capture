@@ -70,7 +70,7 @@ For any addiotional questions:
 
 Feel free to email me!
 
-github: !(https://github.com/gabel35)
+github: [gabel35](https://github.com/gabel35)
 
 email: GabrielJose3135@gmail.com
         
