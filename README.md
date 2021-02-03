@@ -13,7 +13,6 @@ This app allows you to type up any note you would like with a title and save it.
 * [Usage](#usage)
 * [Credits](#credits)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [License](#license)
 * [Questions](#questions)
 
@@ -25,12 +24,15 @@ Run npm install to install required packages (i.e. express).
 
 ## Usage
 
-Run node server.js to run the application in your terminal. Otherwise, on the browser side, you can simply type into the text fields, click the save button to save, click on a note on the left panel to view it, hit the pencil icon to edit the selected note, or hit the trash can next to a note to delete it.
+Run node server.js to run the application in your terminal. Otherwise, on the browser side, you can simply type into the text fields, click the save button to save, click on a note on the left panel to view it, hit the pencil icon to create a new note, or hit the trash can next to a note to delete it.
 
 Please follow the following link to the application!
+
 [Note Capture](https://morning-sierra-25247.herokuapp.com/)
 
-![Note Capture](tbd)
+[DEMO Video](https://drive.google.com/file/d/1SY-ylTQKrfZKMLXJ8LjfsixM48StWpxv/view?usp=sharing)
+
+![Note Capture](./public/assets/note_capture.PNG)
 
 
 ## Credits
